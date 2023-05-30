@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping("/helloboot")
 	public ModelAndView helloboot() {
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("model", "스프링부트를 시작합니다.");
+		mv.addObject("model", "스프링부트를 시작합니다(깃헙).");
 		mv.setViewName("hello");
 		return mv;
 	}
@@ -39,3 +39,4 @@ public class HelloController {
 // 	  복사본 저장소를 내 컴퓨터에 clone
 //    window - show view - git - git repository - 2번째(clone)
 // 6) 프로젝트 파일 우클릭 - team - share project (로컬 레포지토리로 프로젝트 이동)
+// 7) 프로젝트 파일 우클릭 - team - add to index -commit or commit and push
