@@ -10,7 +10,7 @@ public class HelloController {
 	
 	@RequestMapping("/helloboot")
 	public ModelAndView helloboot() {
-		System.out.println("sts3에서 추가한 문자열입니다.");
+		System.out.println("jongin 브랜치에서 작업한 문자열입니다.");
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("model", "스프링부트를 시작합니다(깃헙).");
 		mv.setViewName("hello");
